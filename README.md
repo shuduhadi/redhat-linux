@@ -1,5 +1,5 @@
 # Red Hat Enterprise Linux Technical Overview (RH024)
-h Red Hat's free RH024 course.
+This repository documents my progress through Red Hat's free RH024 course.
 
 ## Course Progress
 
