@@ -1,103 +1,70 @@
-# Lesson 5 - Linux Directories Explained
+# Lesson 6 - Basic File Management
 
 ## Summary
 
-This lesson introduced the Linux file system hierarchy and explained the purpose of the most important directories found under the root (`/`) directory.
+This lesson introduced basic Linux file management commands used to create, view, copy, move, rename, and delete files and directories.
 
 ---
 
 ## Key Concepts
 
-- Everything in Linux starts at the **root directory (`/`)**.
-- The Linux file system is organized as a tree of directories.
-- Each directory has a specific purpose.
-- Understanding the file system hierarchy makes it easier to find files and troubleshoot systems.
+- Linux provides commands to manage files and directories from the command line.
+- The `ls` command can display files with different levels of detail.
+- Files and directories can be created, copied, moved, renamed, and removed using simple commands.
 
 ---
 
 ## Commands Learned
 
 ```bash
-ls /
-pwd
-cd
-ls /usr/bin
-ls /usr/lib64
-ls /usr/share
-ls /var/log
+ls -l
+ls -lh
+ls -lha
+mkdir
+mkdir -p
+touch
+cp
+mv
+rm
+rm -r
 ```
 
 ---
 
 ## Notes
 
-### Root Directory (`/`)
+### Listing Files
 
-- Everything in Linux starts at the root directory (`/`).
-- It is the top level of the Linux file system.
+- `ls -l` displays files and directories with detailed information such as permissions, ownership, file size, and modification date.
+- `ls -lh` displays the same information but with file sizes in a human-readable format (KB, MB, GB).
+- `ls -lha` also displays hidden files and directories.
 
-### `/home`
+### Creating Directories
 
-- Stores users' personal files and directories.
+- `mkdir` creates a new directory.
+- `mkdir -p` creates parent directories if they don't exist and doesn't produce an error if the directory already exists.
 
-### `cd`
+### Creating Files
 
-- Changes the current directory.
+- `touch` creates an empty file.
 
-### `pwd`
+### Copying Files
 
-- Prints the current working directory.
+- `cp` copies a file or directory.
 
-### `/etc`
+### Moving and Renaming Files
 
-- Stores system configuration files.
-- It is good practice to back up configuration files before making changes.
+- `mv` moves a file or directory to another location.
+- It can also be used to rename files.
 
-### `/var`
+### Deleting Files and Directories
 
-- Stores variable data that changes frequently.
-- Examples include logs, mail, and cache files.
-- System logs are commonly found in `/var/log`.
-
-### `/usr`
-
-- Contains user programs and installed software.
-
-Important subdirectories:
-
-- `/usr/bin` – Executable programs (binaries).
-- `/usr/lib64` – Shared libraries used by applications.
-- `/usr/share` – Shared resources such as documentation and data files.
-
-### `/tmp`
-
-- Used for temporary files.
-- Linux regularly cleans this directory.
-- Do not store important files here.
-- All users can access this directory.
-
-### `/root`
-
-- Home directory of the **root** (superuser) account.
-- Normal users cannot access this directory.
-
-### `/boot`
-
-- Contains files required to start the operating system, including the Linux kernel.
-- Usually only modified when troubleshooting boot-related problems.
-
-### `/mnt`
-
-- Used for temporarily mounting storage devices such as USB drives or network shares.
-
-### `/run`
-
-- Stores information about the current running system.
-- Created each time the system boots.
-- Cleared whenever the system restarts.
+- `rm` deletes a file.
+- `rm -r` recursively deletes a directory and all of its contents.
 
 ---
 
 ## What I Learned
 
-I learned that Linux organizes files into a standard directory structure where each folder has a specific purpose. Understanding the Linux file system hierarchy will help me navigate the operating system and know where to find configuration files, logs, software, and user data.
+I learned the basic commands used to manage files and directories in Linux. These commands make it possible to create, organize, copy, move, rename, and remove files directly from the terminal.
+
