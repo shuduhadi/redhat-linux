@@ -3,13 +3,13 @@ This repository documents my progress through Red Hat's free RH024 course.
 
 ## Course Progress
 
-- [ ] Linux distributions
-- [ ] Introduction to the shell
-- [ ] Documentation
-- [ ] Command line assistant
-- [ ] Linux directories explained
-- [ ] Basic file management
-- [ ] Editing files with Vim
+- [x] Linux distributions
+- [x] Introduction to the shell
+- [x] Documentation
+- [x] Command line assistant
+- [x] Linux directories explained
+- [x] Basic file management
+- [x] Editing files with Vim
 - [ ] Organizing local users and groups
 - [ ] File permissions
 - [ ] Managing software and updates
