@@ -36,3 +36,6 @@ This repository documents my progress through Red Hat's free RH024 course.
 - Bootc
 - Red Hat Insights
 - RHEL Web Console
+
+## Repository Verification
+WTC-LCX9MQJ6
