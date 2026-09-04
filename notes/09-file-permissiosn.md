@@ -186,10 +186,3 @@ I learned that Linux permissions control who can access files and directories an
 I learned that `r`, `w`, and `x` have different meanings depending on whether they are applied to a file or directory.
 I also learned that permissions are assigned to the owning user, owning group, and other users.
  
-## Questions
- 
-* What is the difference between file and directory permissions?
-* Why does a directory need `x` permission to be accessed?
-* What is the difference between an owner and an owning group?
-* How can permissions be changed using `chmod`?
- 

@@ -150,12 +150,3 @@ I learned how to check whether a RHEL system is registered and how to register i
 I also learned how to use `dnf` to search for and install packages and how Red Hat uses errata to provide bug fixes, software improvements, and security updates.
 
 I learned about CVEs and how they are used to identify security vulnerabilities and understand their severity.
-
----
-
-## Questions
-
-- What is the difference between RHBA, RHEA, and RHSA?
-- Why would an organization use Satellite?
-- What is a CVE?
-- Why might a system need to be rebooted after an update?
