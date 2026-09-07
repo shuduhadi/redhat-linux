@@ -10,17 +10,17 @@ This repository documents my progress through Red Hat's free RH024 course.
 - [x] Linux directories explained
 - [x] Basic file management
 - [x] Editing files with Vim
-- [ ] Organizing local users and groups
-- [ ] File permissions
-- [ ] Managing software and updates
-- [ ] Managing networking
-- [ ] Managing system startup services with Systemd
-- [ ] Deploying an application runtime to host a simple application
-- [ ] Using Image Mode with Bootc
-- [ ] Insights Image Builder
-- [ ] Insights Vulnerability Management
-- [ ] Managing systems with the RHEL web console
-- [ ] Next steps
+- [x] Organizing local users and groups
+- [x] File permissions
+- [x] Managing software and updates
+- [x] Managing networking
+- [x] Managing system startup services with Systemd
+- [x] Deploying an application runtime to host a simple application
+- [x] Using Image Mode with Bootc
+- [x] Insights Image Builder
+- [x] Insights Vulnerability Management
+- [x] Managing systems with the RHEL web console
+
 
 ## Skills being built:
 
